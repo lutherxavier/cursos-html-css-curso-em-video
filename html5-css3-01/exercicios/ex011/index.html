@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Fotos adaptáveis</h1>
+    <p>Aumente ou diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem grande">
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML 5</p>
+    <audio preload="metadata" controls>
+        <source src="midias/Summer Somewhere In Cuba - Cumbia Deli.mp3" type="audio/mpeg">
+    </audio>
+    <p>Se o áudio não estiver funcionando, <a href="midias/Summer Somewhere In Cuba - Cumbia Deli.mp3" download="Summer Somewhere In Cuba - Cumbia Deli.mp3" type="application/mpeg">baixe aqui o arquivo</a></p>
+</body>
+</html>
