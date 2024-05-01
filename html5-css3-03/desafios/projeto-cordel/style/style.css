@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "sriracha";
+    src: url("../fonts/Sriracha-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "passionOne";
+    src: url("../fonts/PassionOne-Bold.ttf") format("truetype");
+}
+
+:root {
+    --cor1: black;
+    --cor2: white;
+    --font-padrao: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor2);
+    font-family: var(--font-padrao);
+}
+
+header {
+    min-height: 250px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-family: "passionOne";
+    font-size: 8em;
+    padding-top: 60px;
+    font-variant: small-caps;
+    color: var(--cor2);
+}
+
+header p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    min-width: 400px;
+    max-width: 1000px;
+}
+
+pre {
+    font-family: "sriracha";
+    font-size: 3em;
+    margin-left: -120px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.relative1 {
+    position: relative;
+    width: 98.5vw;
+    height: 100vh;
+    background: white url("../imagens/background001.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+
+.relative2 {
+    position: relative;
+    width: 98.5vw;
+    height: 100vh;
+    background: white url("../imagens/background002.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+
+.absolute {
+    position: absolute;
+    left: -7%;
+    top: 3%;
+       
+}
+
+.absolute > pre {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: var(--cor2);
+    background-color: rgba(0, 0, 0, 0.486);
+    width: 780px;
+    height: 585px;
+    padding-right: 40px;
+}
+
+footer {
+    background-color: var(--cor1);
+    color: var(--cor2);
+    padding: 10px 0px;
+    text-align: center;
+}
