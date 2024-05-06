@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            width: 95vw;
+            height: 400px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis doloremque vel consequatur alias dolorum ipsam ratione odit adipisci itaque quo, aut id voluptatum repellat. Illo magnam placeat nihil hic dolor. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, a sed saepe officia harum nihil eius quo quibusdam nisi necessitatibus quisquam alias possimus cumque iste nulla illum quam, quae et.</p>
+
+    <ul>
+        <li><a href="pags-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="pags-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="pags-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint illum doloribus temporibus assumenda consequatur fugiat debitis quae, porro ab, distinctio, enim nam nesciunt laborum tempora exercitationem quisquam. Eius, possimus deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam harum voluptate, velit ipsum, unde, nisi omnis quam repudiandae quae doloremque odio vitae repellat qui eum distinctio laboriosam itaque tempora accusantium.</p>
+
+    <iframe frameborder="1" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius reiciendis aut tenetur beatae rem impedit nisi ut autem, laborum, nam ad, harum ex alias quidem fuga facilis quasi esse magni.</p>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+</body>
+</html>
