@@ -1,0 +1,27 @@
+@charset "UTF-08";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: brown url("../imagens/fundo-madeira.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+
+img#celular {
+    display: block;
+    margin: auto;
+}
+
+.absolute {
+    position: absolute;
+    left: 40%;
+    top: 12%;
+}
+
+.absolute > img {
+    width: 272px;
+    height: 476px;
+}
