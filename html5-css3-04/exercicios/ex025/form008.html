@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>    
+    <form action="cadastro.php" method="post">
+        <div>
+            <label for="n1">Digite um número: </label>
+            <input type="number" name="n1" id="n1" required oninput="soma.innerHTML = Number(n1.value) + Number(n2.value)">
+        </div>
+        <div>
+            <label for="n2">Digite o segundo número:</label>
+            <input type="number" name="n2" id="n2" required oninput="soma.innerHTML = Number(n1.value) + Number(n2.value)">
+        </div>
+        <div>
+            <label for="soma">Soma: </label>
+            <output name="soma" id="soma">0</output>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
