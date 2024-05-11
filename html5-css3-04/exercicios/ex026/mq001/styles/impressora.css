@@ -16,3 +16,11 @@ html {
 menu {
     display: none;
 }
+
+article::after {
+    content: "Esse artigo foi impressoa através do site The New York Luther";
+}
+
+article { 
+    width: 100%;
+}
