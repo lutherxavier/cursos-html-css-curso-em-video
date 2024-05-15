@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+body {
+    background: #233EFF url("../imagens/cev-portrait.jpg") center bottom no-repeat fixed;
+    background-size: contain;
+}
