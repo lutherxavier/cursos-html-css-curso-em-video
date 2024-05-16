@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reforço MQ005</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body onresize="mudarTamanho()">
+    <header>
+        <h1>Meu site</h1>
+        <span class="material-symbols-outlined" id="menu-botao" onclick="clicar()">menu</span>
+        <nav id="nav">
+            <ul>
+                <li>Opção 1</li>
+                <li>Opção 2</li>
+                <li>Opção 3</li>
+                <li>Opção 4</li>
+                <li>Opção 5</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Exercício de reforço</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus eaque nisi unde, iste, laborum, doloribus sed inventore nulla culpa recusandae atque eius tempora. Cumque temporibus alias rerum cum totam voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aspernatur vitae corrupti doloremque magnam ea reprehenderit, alias obcaecati iure culpa repudiandae modi, consequatur quasi temporibus. Quas illum aspernatur aut laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus placeat incidunt facere, provident omnis assumenda voluptatibus laborum atque laboriosam illo. Nulla repellendus molestias doloribus id, architecto doloremque rem fuga ipsum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus eaque nisi unde, iste, laborum, doloribus sed inventore nulla culpa recusandae atque eius tempora. Cumque temporibus alias rerum cum totam voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aspernatur vitae corrupti doloremque magnam ea reprehenderit, alias obcaecati iure culpa repudiandae modi, consequatur quasi temporibus. Quas illum aspernatur aut laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus placeat incidunt facere, provident omnis assumenda voluptatibus laborum atque laboriosam illo. Nulla repellendus molestias doloribus id, architecto doloremque rem fuga ipsum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus eaque nisi unde, iste, laborum, doloribus sed inventore nulla culpa recusandae atque eius tempora. Cumque temporibus alias rerum cum totam voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aspernatur vitae corrupti doloremque magnam ea reprehenderit, alias obcaecati iure culpa repudiandae modi, consequatur quasi temporibus. Quas illum aspernatur aut laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus placeat incidunt facere, provident omnis assumenda voluptatibus laborum atque laboriosam illo. Nulla repellendus molestias doloribus id, architecto doloremque rem fuga ipsum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus eaque nisi unde, iste, laborum, doloribus sed inventore nulla culpa recusandae atque eius tempora. Cumque temporibus alias rerum cum totam voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aspernatur vitae corrupti doloremque magnam ea reprehenderit, alias obcaecati iure culpa repudiandae modi, consequatur quasi temporibus. Quas illum aspernatur aut laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus placeat incidunt facere, provident omnis assumenda voluptatibus laborum atque laboriosam illo. Nulla repellendus molestias doloribus id, architecto doloremque rem fuga ipsum.</p>
+        </section>
+    </main>
+    <script>
+        function mudarTamanho(){
+            if(window.innerWidth >= 768) {
+                nav.style.display = "block"
+            } else {
+                nav.style.display = "none"
+            }
+        }
+        function clicar(){
+            if (nav.style.display == "block"){
+                nav.style.display = "none"
+            } else {
+                nav.style.display = "block"
+            }
+        }
+    </script>
+</body>
+</html>
