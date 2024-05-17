@@ -21,6 +21,10 @@ header h1 {
     padding: 10px 0px;
 }
 
+nav {
+    display: none;
+}
+
 nav ul {
     list-style-type: none;
 }
